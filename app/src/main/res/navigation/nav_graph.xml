@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_record">
+
+    <fragment
+        android:id="@+id/navigation_record"
+        android:name="com.example.myapplication.ui.RecordFragment"
+        android:label="@string/tab_record"
+        tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/navigation_draw"
+        android:name="com.example.myapplication.ui.DrawFragment"
+        android:label="@string/tab_draw"
+        tools:layout="@layout/fragment_draw" />
+
+    <fragment
+        android:id="@+id/navigation_play"
+        android:name="com.example.myapplication.ui.PlayFragment"
+        android:label="@string/tab_play"
+        tools:layout="@layout/fragment_play" />
+
+</navigation>
